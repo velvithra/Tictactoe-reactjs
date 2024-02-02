@@ -1,0 +1,17 @@
+.players{
+    width:30vw;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:whitesmoke;
+}
+.player{
+    width:10vw;
+    border:2px solid blue;
+    border-radius: 5%;
+    padding: 0.5rem 0;
+    display:flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}

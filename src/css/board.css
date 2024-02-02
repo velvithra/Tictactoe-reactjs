@@ -1,0 +1,55 @@
+:root{
+    --board-background:none;
+    --border-color:rgb(12, 225, 19);
+    --border-thickness:5px;
+}
+.board{
+    width:30vw;
+    height:50%;
+    background-color: var(--board-background);
+    display:flex;
+    align-items:flex-start;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+}
+.square{
+    height:35%;
+    width:33%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 6rem;
+}
+.sq1{
+    border-right:var(--border-thickness) dashed var(--border-color);
+    border-bottom:var(--border-thickness) dashed var(--border-color);
+}
+.sq2{
+    border-right:var(--border-thickness) dashed var(--border-color);
+    border-bottom:var(--border-thickness) dashed var(--border-color);
+}
+.sq3{
+       border-bottom:var(--border-thickness) dashed var(--border-color);
+}
+.sq4{
+    border-right:var(--border-thickness) dashed var(--border-color);
+    border-bottom:var(--border-thickness) dashed var(--border-color);
+}
+.sq5{
+    border-right:var(--border-thickness) dashed var(--border-color);
+    border-bottom:var(--border-thickness) dashed var(--border-color);
+}
+.sq6{
+       border-bottom:var(--border-thickness) dashed var(--border-color);
+}
+.sq7{
+    border-right: var(--border-thickness) dashed var(--border-color);   
+}
+.sq8{
+    border-right: var(--border-thickness) dashed var(--border-color);   
+}
